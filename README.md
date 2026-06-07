@@ -31,7 +31,8 @@ shopping-insight-analysis/
 └── README.md
 ```
 
-## 노트북 실행 순서
+## 분석코드 실행 순서
+-꼭 이 파일 순서대로 분석 결과가 이어지는 것은 아니지만, 분석 파일이 많아서 이러한 순서대로 읽어주시면 이해에 도움되실겁니다.
 
 1. `01_google_trends_region_analysis.ipynb`
 2. `02_sales_by_channel_analysis.ipynb`
@@ -42,21 +43,6 @@ shopping-insight-analysis/
 7. `07_quarterly_sales_volatility.ipynb`
 8. `08_integrated_visualizations.ipynb`
 
-노트북은 `notebooks/` 폴더에서 실행하는 것을 기준으로 데이터 경로가 설정되어 있습니다.
-
-## 설치 및 실행
-
-```bash
-python -m venv .venv
-```
-
-Windows:
-
-```bash
-.venv\Scripts\activate
-pip install -r requirements.txt
-jupyter lab
-```
 
 ## 데이터 수집 코드
 
@@ -75,5 +61,4 @@ GitHub에 올리지 마세요.
 
 - 클릭 지수와 세그먼트 비율은 절대 사용자 수를 의미하지 않습니다.
 - 결측값 또는 비율 합계가 비정상적인 상품은 분석 전에 제외해야 합니다.
-- 상관관계는 변수 사이의 관련성을 보여주지만 인과관계를 증명하지 않습니다.
 - 일부 원본 CSV는 `cp949` 인코딩이므로 읽을 때 인코딩 지정이 필요합니다.
