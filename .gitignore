@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*.env
+naver_credentials.csv
+.DS_Store
+Thumbs.db
+
