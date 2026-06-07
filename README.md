@@ -22,7 +22,7 @@ shopping-insight-analysis/
 │   ├── raw/          # 외부 기관에서 받은 원본 데이터
 │   ├── interim/      # 병합 등 중간 처리 데이터
 │   └── processed/    # 분석에 바로 사용하는 최종 데이터
-├── notebooks/        # 주제별 분석 및 시각화 노트북
+├── code/             # 주제별 분석 및 시각화 노트북
 ├── src/
 │   ├── collection/   # 네이버 API 및 Google Trends 수집 코드
 │   └── processing/   # 데이터 전처리 및 병합 코드
@@ -34,15 +34,13 @@ shopping-insight-analysis/
 ## 분석코드 실행 순서
 -꼭 이 파일 순서대로 분석 결과가 이어지는 것은 아니지만, 분석 파일이 많아서 이러한 순서대로 읽어주시면 이해에 도움되실겁니다.
 
-1. `01_google_trends_region_analysis.ipynb`
-2. `02_sales_by_channel_analysis.ipynb`
-3. `03_overseas_direct_sales_analysis.ipynb`
-4. `04_naver_quarterly_click_analysis.ipynb`
-5. `05_naver_segment_analysis.ipynb`
-6. `06_consumer_target_positioning.ipynb`
-7. `07_quarterly_sales_volatility.ipynb`
-8. `08_integrated_visualizations.ipynb`
-
+1. `02_sales_by_channel_analysis.ipynb`
+2. `03_overseas_direct_sales_analysis.ipynb`
+3. `04_naver_quarterly_click_analysis.ipynb`
+4. `05_naver_segment_analysis.ipynb`
+5. `06_consumer_target_positioning.ipynb`
+6. `07_quarterly_sales_volatility.ipynb`
+7. `08_integrated_visualizations.ipynb`
 
 ## 데이터 수집 코드
 
